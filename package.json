@@ -1,0 +1,28 @@
+{
+  "name": "estudos-graphql",
+  "version": "1.0.0",
+  "main": "objectType.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickWillyan-Baymetrics/estudos-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickWillyan-Baymetrics/estudos-graphql/issues"
+  },
+  "homepage": "https://github.com/erickWillyan-Baymetrics/estudos-graphql#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.11.0"
+  }
+}
