@@ -1,0 +1,13 @@
+enum TipoPerfil {
+  Cliente
+  Vendedor
+}
+
+type Perfil {
+  id: Int
+  name: TipoPerfil
+}
+
+type Query {
+  perfis: [Perfil]
+}
